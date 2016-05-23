@@ -1,0 +1,51 @@
+roberts@roberts-desktop:~/Documents/MD2/WORK$ python bay.py rawtweets/tilde_tweet_corpus.txt 
+Tweets total: 1177, train set 80proc: 942, test set 20proc: 235
+942
+235
+Most Informative Features
+                 has(:() = True              NEG : NEU    =     35.5 : 1.0
+                 has(:)) = True              POZ : NEG    =     25.1 : 1.0
+              has(vairs) = True              NEG : NEU    =     14.5 : 1.0
+                has(:))) = True              POZ : NEU    =     13.9 : 1.0
+             has(nevaru) = True              NEG : NEU    =     10.3 : 1.0
+         has(brīvdienas) = True              NEG : NEU    =      9.2 : 1.0
+              has(jūtos) = True              NEG : NEU    =      9.2 : 1.0
+              has(nevar) = True              NEG : NEU    =      9.2 : 1.0
+             has(auksti) = True              NEG : NEU    =      9.2 : 1.0
+            has(paldies) = True              POZ : NEU    =      7.8 : 1.0
+                 has(^^) = True              POZ : NEU    =      7.4 : 1.0
+                 has(:*) = True              POZ : NEU    =      7.4 : 1.0
+              has(super) = True              POZ : NEU    =      7.4 : 1.0
+              has(dienu) = True              POZ : NEU    =      7.4 : 1.0
+              has(dzīvē) = True              NEG : NEU    =      6.6 : 1.0
+            has(cilvēki) = True              NEG : NEU    =      6.6 : 1.0
+              has(laikā) = True              NEG : NEU    =      6.6 : 1.0
+           has(telefona) = True              NEG : NEU    =      6.6 : 1.0
+            has(negribu) = True              NEG : NEU    =      6.6 : 1.0
+             has(aiziet) = True              NEG : NEU    =      6.6 : 1.0
+
+TRAINING accuracy: 0.866242038217
+TEST accuracy: 0.587234042553
+
+NEU precision: 0.565934065934
+NEU recall: 0.895652173913
+NEU F-measure: 0.693602693603
+
+POS precision: 0.769230769231
+POS recall: 0.365853658537
+POS F-measure: 0.495867768595
+
+NEG precision: 0.357142857143
+NEG recall: 0.131578947368
+NEG F-measure: 0.192307692308
+
+    |   N   N   P |
+    |   E   E   O |
+    |   G   U   Z |
+----+-------------+
+NEG |  <5> 32   1 |
+NEU |   4<103>  8 |
+POZ |   5  47 <30>|
+----+-------------+
+(row = reference; col = test)
+

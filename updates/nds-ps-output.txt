@@ -1,0 +1,51 @@
+roberts@roberts-desktop:~/Documents/MD2/WORK$ python bay.py rawtweets/noisy-shuf-ps.txt 
+Tweets total: 5951, train set 80proc: 4761, test set 20proc: 1190
+4761
+1190
+Most Informative Features
+             has(slikti) = True              NEG : NEU    =    107.5 : 1.0
+             has(nevaru) = True              NEG : NEU    =     51.1 : 1.0
+         has(brīvdienas) = True              POZ : NEU    =     35.0 : 1.0
+             has(stulbi) = True              NEG : NEU    =     33.5 : 1.0
+              has(nevar) = True              NEG : NEU    =     30.7 : 1.0
+             has(slikts) = True              NEG : NEU    =     26.4 : 1.0
+             has(prieks) = True              POZ : NEU    =     25.1 : 1.0
+              has(forši) = True              POZ : NEU    =     23.6 : 1.0
+               has(labi) = True              POZ : NEU    =     23.3 : 1.0
+               has(labs) = True              POZ : NEU    =     22.6 : 1.0
+             has(bijuši) = True              NEG : POZ    =     21.3 : 1.0
+              has(galva) = True              NEG : POZ    =     21.3 : 1.0
+          has(nesaprotu) = True              NEG : NEU    =     19.4 : 1.0
+              has(darbu) = True              NEG : NEU    =     19.4 : 1.0
+               has(laba) = True              POZ : NEU    =     17.6 : 1.0
+              has(super) = True              POZ : NEU    =     16.6 : 1.0
+               has(jūrā) = True              NEG : POZ    =     16.6 : 1.0
+             has(centrs) = True              NEG : POZ    =     16.6 : 1.0
+          has(krievijas) = True              NEG : POZ    =     16.6 : 1.0
+                 has(la) = True              NEG : POZ    =     16.6 : 1.0
+
+TRAINING accuracy: 0.933207309389
+TEST accuracy: 0.555462184874
+
+NEU precision: 0.612665684831
+NEU recall: 0.660317460317
+NEU F-measure: 0.635599694423
+
+POS precision: 0.47628458498
+POS recall: 0.613231552163
+POS F-measure: 0.536151279199
+
+NEG precision: 0.8
+NEG recall: 0.0239520958084
+NEG F-measure: 0.046511627907
+
+    |   N   N   P |
+    |   E   E   O |
+    |   G   U   Z |
+----+-------------+
+NEG |  <4>111  52 |
+NEU |   1<416>213 |
+POZ |   . 152<241>|
+----+-------------+
+(row = reference; col = test)
+
