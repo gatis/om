@@ -1,7 +1,8 @@
 # om
 Resources for opinion mining for written content classification in Latvian text
 
-This is set of work-products to use for opinion mining for written content classification in Latvian text
+This is set of work-products to use for opinion mining for written content classification in Latvian text.
+I have produced these resources while working on thesis "Application of Opinion Mining for Written Content Classification in Latvian Text" details: https://nda.rtu.lv/lv/view/13182 and other research
 
 analyze-lexicon.py - take positive and negative words from lexicon and look for them in tweets
 
